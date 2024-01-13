@@ -1,0 +1,50 @@
+Mean : The sum of all observations divided by number of observations
+
+Median: the measure of location that specify the middle value of the data arranged in the least to highest.  
+        for odd no of observations -> median is middle value
+        for even no of observations -> mean of middle two no
+
+Mode:  it is the observation that occur most frequently.
+
+Midrange :  average of the largest and the smallest value in the data
+
+Dispersion :  degree of the varation in the data i.e the numerical spread of data.
+
+Range :  It is the difference between maximum value and minimum value of the data.
+
+Interquartile Range (IQR) / (midspread)  : the difference betweeen the first and third quartile i.e Q3-Q1. 
+
+Variance :  Commonly used measure of dispersion whose computations depends on the data.
+            the larger the variance the more data are spread out from the mean and more variabilty one can expect in the observation 
+
+Standard variation :  It is the square root of the variance 
+
+Standardized values (Z- score) :  it provides the relative measure of the distance an observation is from the mean which is independent of the unit of measurements.
+
+Coefficent of varatation (CV) :  it provides a relative measure of the dispersion in the data relative to the mean 
+                                 CV = standard deviation / Mean
+                                 smalar coefficent of variance -> smaller relative risk
+                                 the receprocal of coefficent of variance is return to risk
+
+Measure of Shapes:
+1.  Skewness :
+  -  it describes the lack of symmetry of data.
+  -  the coefficent of skewness (CS) measures the degree of asymmetry of observation around the mean.
+  -  histograms having only one peak is called the unimodal.
+  -  histograms having only two peaks is called the bimodal.
+  -  CS positive -> distribution of values is positively skewed.
+  -  CS negative -> distribution of values is negatively skewed.
+  -  CS zero -> less degree of skewness.
+  -  high skewness -> CS > 1 or Cs <-1
+  -  moderate skewness ->Cs between 0.5 to 1 or -0.5 to -1.
+  -  relative skewness -> CS betwen 0.5 to -0.5.
+  -  more mass on right and tail of at right ->negative skewness.
+  -  more mass on left and tail of at left -> positive skewness.
+  -  negative skweness -> mean < median < mode
+  -  positive skewness -> mode < median < mean
+
+2. Kurtosis :
+  -  it refers to the peakness or flatness of the histogram.
+  -  Coefficent of kurtosis (CK) measures the degree of kurtosis of the population 
+
+
