@@ -1,0 +1,30 @@
+Descriptive analysis :
+  -  the primary goal of descriptive analytics is to identify trends and patterns in historical data
+  -  R-squared is measure of how well a regression line fits the data and is typically used in predictive analytics
+  -  line chart is best to display time series data
+  -  barcharts are better suited for comparing categorical data not conntinuous data
+  -  pie charts are for showing proportions of whole 
+  -  scatter plots are used to viusalize relationship between two variables 
+  -  Descriptive analytics provides insights and understanding of past performance, but it doesn't directly translate to automatic decisions.
+  -  Automatic decision-making often relies on predictive or prescriptive analytics
+  -  Descriptive analytics focuses on the past, while predictive analytics focuses on the future.
+
+
+Jarque-Bera test for normality:
+  -  The Jarque-Bera test is a statistical test used to assess whether a given sample of data comes from a normally distributed population.
+  -  It does this by analyzing the skewness and kurtosis of the sample.
+  -  Check the validity of normality assumptions for various statistical tests, such as t-tests and ANOVA.
+  -  Compare the normality of different datasets.
+  -  Monitor the normality of data over time.
+
+
+Augmented Dickey-Fuller (ADF) test for stationarity:
+  -  The Augmented Dickey-Fuller (ADF) test is a statistical test used to check for the presence of a unit root in a time series data set.
+  -  A unit root, essentially, means that a shock or change in the series persists indefinitely.
+  -  Checking for stationarity before performing various statistical analysis techniques like regression analysis or forecasting.
+  -  Comparing the stationarity of different time series data sets.
+  -  Identifying cointegration relationships between multiple time series.
+
+GARCH model for volatility forecasting:
+  -  GARCH models, standing for Generalized Autoregressive Conditional Heteroskedasticity, are powerful tools for predicting volatility in financial markets.
+
