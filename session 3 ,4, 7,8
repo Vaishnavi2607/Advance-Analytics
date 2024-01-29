@@ -109,5 +109,52 @@ Expected value :
       
 
 BERNOULLI DIATRIBUTION:
-  -  
+  -  characterizes a random variable having two possible outcomes each with constant probability of occurence.
+  -  1. success (probability p) 2. failure (probability 1-p)
+  -  f(x) = p if x=1
+  -  f(x) = 1-p if x= 0
+
+
+BINOMIAL DISTRIBUTION:
+  -  models n independent repetition of the bernouili expriment each with probability p of sucess.
+  -  f(x) = (n,x)p^x(1-p)^(n-x) for x = 0,1,2....n
+  -  f(x) = 0 otherwise
+
+
+POISSON  DISTRIBUTION:
+  -  used to model the no of occurences in some unit measure .
+  -  expected value of poisson distribution is  λ
+  -  probabilty  mass function: f(x) = e^(- λ) λ^x /x! for x = 0,1,2,.... or f(X) = 0 otherwise
+
+UNIFORM DISTRIBUTION:
+  -  CHARACTERIZE  continous random variable for which all out comes between some minimum value are equally likely.
+  -  density function = f(x)= 1/(b-a) for a<=x<=b or 0 otherwise 
+  -  cummulative density function = f(x) = 0 if x<a or (x-a)/(x-b) if a<=x<=b or 1 if b<=x
+
+NORMAL DISTRIBUTION:
+  -  continous distribution that is described by familiar bellshaped curve
+  -  two parameters : 1. mean 2. standard deviation
+  -  properties:
+    1.  distribution is symmetric
+    2.  skewness is zero
+    3.  mean median mode are equal
+    4.  tail of distribution extends to -ve and +ve infinity
+    5.  density function -> +/-1 then standard deviation 68.3%
+        density function -> +/-2 then standard deviation 95.4%
+        density function -> +/-3 then standard deviation 99.7%
+
+STANDARD NORMAL DISTRIBUTION:
+  -  normal distribution with mean = 0 and standard deviation = 1
+  -  denoted by Z 
+  -  density function denoted by f(z)
+
+EXPOENTIAL DISTRIBUTION:
+  -  continous distribution that models the time between randomly occuring events   
+  -  density function -> f(x)= λe^(- λx) for x>=0
+  -  cummulative density function -> F(x) = 1-e^(-λx) for x>=0
+
+
+
+
+
   
