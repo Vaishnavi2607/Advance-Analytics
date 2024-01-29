@@ -1,0 +1,113 @@
+Probability : 
+  -  likehood that an outcome occurs.
+  -  between 0 and 1
+
+Expriment :
+  -  process that results in an outcome.
+
+outcome:
+  -  the result that we observe.
+
+Sample space:
+  -  collection of possible outcomes of an expriments 
+  -  consist of small no of discrete outcomes or infinite number of outcomes.
+
+Combination :
+  -  count of unique outcomes.
+  -  order does not matter
+  -  no of combinations of selecting n objects from a set N is 
+      C(n,N) = N! / (n!(N-n)!
+
+Permutation :
+  -  select n objcts from the N and oder matters 
+  -  no of permutation of selecting n objects from a set N is
+      P(n,N) = N! / (N-n)!
+
+probability defination 
+  1.  classical defination of probability.
+  2.  relative frequency defination.
+  3.  subjective defination 
+
+event:
+  -  collection of one or more outcomes of the sample space
+
+Union: 
+  -  events containing all the outcomes that belong to the either of the two events.
+
+intersection:
+  -  events containing all the outcomes beloging to both the events.
+  
+Mutually Exclusive:
+  -  two events are nutually exclusive if they have no outcomes in common.
+
+probalbility rules:
+  rule 1:
+    -  probability of any even is the sum of probability of outcomes that comprises that event.
+    -  if A is event , then Complement of A denoted as A' consist of all outcomes in the sampple space not in A
+  rule 2:
+    -  probability of the complement of any event is P(A')= 1-P(A).
+  rule 3:
+    -  if events A and B are mutually exclusive then P(A OR B) = P(A) + P(B).
+  rule 4:
+    -  if events A and B are not mutually exclusive then P(A OR B) = P(A) + P(B) - P(A AND B).
+
+Joint Probability:
+    -  the probabilty of two or more evr=ents is called as joint probabilty
+    -  probability of intersection of two events
+    -  probability of events A and b.
+    -  the joint probabilty of events A and B is calculated as probability of event A given B multipied by Probability of event B
+    -  P (A and B) / P(A^B) / P(A,B)
+    -  P(A and B) = P(A given B) - P(B) =  P(B given A) - P(A).
+
+Marginal probalbility: 
+    -  the probability of event , irrespective of the outcome of the other joint event 
+    -  sum of probabilities for the other variable on marginal table 
+    -  P(X=A) =  sum P(X=A, Y = yi) for all y
+
+Conditional probability:
+    -  probability of one to one or more variable 
+    -  probability of occurence of one event A given that the event B is true or already occured.
+    -  P(A given B) / P(A|B)
+    -  P(A given B)=P(A and B )/P(B)
+
+Random variable:
+    -  numerical description of the outcome of all components of an expriments.
+    -  function that assigns a real number to each element of the sample space 
+
+Discrete Random variable:
+    -  the number of possible outcomes can be counted
+
+Continuous random variable:
+    -  outcomes over one or more continous intervals of real numbers 
+
+Probability distribution:
+    -  characterization of the psiible values that random variable may assume along with the probability of assuming these values
+    -  discrete or continous
+
+Empirical probability distribution 
+    -  approximation of the probability distribution of the associated random variable.
+
+probability mass function :
+  -  probability distribution of discrete outcomes 
+  -  denoted by f(x)
+  -  properties:
+  1.  probability of outcome must be 0 or 1. (0<= f(xi) <=1 for all i)
+  2.  sum of probabilities must be 1 
+
+cummulative Distributon function :F(x)
+  -  probability that the random variable X assumes that a value less than or equal to specified value x.
+  -  denoted as P(X<=x)
+
+Expected value :
+  -  correspounds to the notion of mean or average 
+  -  E(X) = ∑ (xi * F(xi))
+  where:
+    E(X) is the expected value of X
+    x is a possible value of X  
+    F(x) is the probability of X taking the value x
+    ∑ is the summation symbol, meaning we need to add up the product of x and P(x) for all possible values of X
+      
+
+BERNOULLI DIATRIBUTION:
+  -  
+  
