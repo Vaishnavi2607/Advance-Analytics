@@ -1,0 +1,21 @@
+Data analysis:
+  -  process of cleaning, transforming and modeling data to discover useful information for business decision making.
+
+Data analytics life cycle:
+
+1.  Data Discovery  and formation:
+  -  consist of mapping of potential use and requirement of data
+2.  Data Preparation and Processing:
+  -  Methods to investigate the possibilities of pre-processing, analysing, and preparing data before analysis and modelling.
+  -  involve collecting ,processing and cleansing of data.
+  -  ools involve hadoop
+3.  Model planning:
+  -  initiates with identifing relation between the data pooints toslect ey variables and find a suitable model
+  -  tools involve matlab etc
+4. Model building
+  -  comprises developing data sets testing ,training and production purposes.
+  -  tools matlab , stastica
+5.  communication result:
+  -  starts with a collaboration with major stakeholder to determine if the project result is sucess or failure.
+6.  Documentation :
+  -  provide a detailed report with key findings ,coding ,briefings ,technical papers to the stkeholders.
